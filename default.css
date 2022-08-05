@@ -301,9 +301,6 @@ h6{ font-size: 16px}
 
 .post{
 	border:1px solid var(--borderColor);
-	-webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
-	-moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
-	box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 }
 
 .thumbnail{
@@ -410,3 +407,12 @@ h6{ font-size: 16px}
 
 }
 
+.raise:hover,
+.raise:focus {
+  transform: translateY(-1em);
+  box-shadow: 0 100em 50em -0.2em var(--hover);
+}
+
+.raise{
+    border:1px solid var(--mainColor);
+}
